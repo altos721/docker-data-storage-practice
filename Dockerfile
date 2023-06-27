@@ -10,5 +10,7 @@ COPY . .
 
 EXPOSE 80
 
-CMD ["node", "server.js"]
+# VOLUME ["/app/node_modules"]
+
+CMD ["npm", "start"]
 
