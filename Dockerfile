@@ -14,3 +14,4 @@ EXPOSE 80
 
 CMD ["npm", "start"]
 
+#docker run -d --rm -p 3000:80 --name feedback-app -v feedback:/app/feedback -v "/Users/chihhaohsu/Udemy/max_docker/44_data-volumes-01-starting-setup:/app:ro" -v /app/temp -v /app/node_modules feedback-node:volumes
